@@ -12,6 +12,7 @@
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.57.3",
     "@react-three/fiber": "^8.12.0",
+    "eslint-config-airbnb": "^19.0.4",
     "framer-motion": "^10.3.2",
     "maath": "^0.5.3",
     "react": "^18.2.0",

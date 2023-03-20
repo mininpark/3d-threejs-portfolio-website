@@ -1,7 +1,15 @@
 $color-primary: #050816;
 $color-secondary: #AAA6C3;
 $color-tertiary: #151030;
+$color-white: #fff;
 
+.font-white {
+  color: $color-white;
+}
+
+.font-gray {
+  color:rgba(255, 255, 255, 0.5);
+}
 
 .black-gradient {
   background: #000000; /* fallback for old browsers */

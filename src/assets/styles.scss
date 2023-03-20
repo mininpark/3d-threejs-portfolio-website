@@ -1,10 +1,14 @@
 // Here import all atoms, elements, modules, helpers SCSS files
 
 //Helpers
-@import 'scss/layout';
-@import 'scss/colors';
-@import 'scss/fonts'
+
+@import 'scss/helper/layout';
+@import 'scss/helper/colors';
+@import 'scss/helper/fonts';
+@import 'scss/helper/reset';
 
 
 //Components
 //Atoms
+//Module
+@import 'scss/module/navbar';
