@@ -1,22 +1,5 @@
-import { useRef, useLayoutEffect } from 'react';
 import { ComputersCanvas } from './canvas';
-import { gsap } from 'gsap';
-
-
 const Hero = () => {
-  // const toggleRef = useRef(null);
-
-  // useLayoutEffect(() => {
-  //   console.log(toggleRef)
-  //   gsap.to(toggleRef.current,
-  //     {
-  //       y: 30,
-  //       repeat: -1,
-  //       yoyo: true,
-  //     })
-
-  // }, [])
-
   return (
     <section className="section-hero">
       <div className="section-hero__wrapper paddingX">
