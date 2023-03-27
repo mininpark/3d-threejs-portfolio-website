@@ -4,20 +4,18 @@ import { gsap } from 'gsap';
 
 
 const Hero = () => {
-  const toggleRef = useRef(null);
+  // const toggleRef = useRef(null);
 
-  useLayoutEffect(() => {
-    console.log(toggleRef)
-    gsap.fromTo(toggleRef.current,
-      1,
-      { y: 30 },
-      {
-        y: 0,
-        repeat: -1,
-        yoyo: true
-      })
+  // useLayoutEffect(() => {
+  //   console.log(toggleRef)
+  //   gsap.to(toggleRef.current,
+  //     {
+  //       y: 30,
+  //       repeat: -1,
+  //       yoyo: true,
+  //     })
 
-  }, [])
+  // }, [])
 
   return (
     <section className="section-hero">
@@ -37,7 +35,7 @@ const Hero = () => {
       <div className="section-hero__toggle-btn">
         <a href="#about">
           <div className="outer-container">
-            <div className="circle" ref={toggleRef}></div>
+            <div className="circle" ></div>
           </div>
         </a>
       </div>

@@ -52,6 +52,16 @@
     justify-content: center;
     align-items: center;
     bottom: 2.5rem;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+      @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      @-webkit-keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
       @include sm {
         bottom: 1rem;
       }
@@ -71,7 +81,25 @@
         border-radius: 50%;
         background-color: $color-secondary;
         margin-bottom: 0.25rem;
+        animation: bounce 1s infinite alternate;
+        @keyframes bounce {
+          from {
+            transform: translateY(2rem);
+          }
+          to {
+            transform: translateY(0);
+          }
+        }
+        @-webkit-keyframes bounce {
+          from {
+            transform: translateY(2rem);
+          }
+          to {
+            transform: translateY(0);
+          }
+        }
       }
     }
+
   }
 }
