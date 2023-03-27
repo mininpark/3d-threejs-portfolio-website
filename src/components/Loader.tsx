@@ -3,6 +3,7 @@ import { Html, useProgress } from "@react-three/drei";
 const CanvasLoader = () => {
   const { progress } = useProgress();
   return (
+    // to create html element with react three js library
     <Html
       as='div'
       center
