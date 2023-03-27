@@ -45,5 +45,33 @@
       }
     }
   }
+  &__toggle-btn {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 2.5rem;
+      @include sm {
+        bottom: 1rem;
+      }
+    .outer-container {
+      width: 35px;
+      height: 64px;
+      border-radius: 1.5rem;
+      border: 0.2rem solid $color-secondary;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      padding: 0.2rem;
 
+      .circle {
+        width: 1.2rem;
+        height: 1.2rem;
+        border-radius: 50%;
+        background-color: $color-secondary;
+        margin-bottom: 0.25rem;
+      }
+    }
+  }
 }
