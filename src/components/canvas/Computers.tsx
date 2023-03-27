@@ -24,15 +24,14 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.6 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        position={isMobile ? [0, -3, -2.0] : [0, -3.25, -1.5]}
       />
     </mesh>
   )
 }
 
 const ComputersCanvas = () => {
-  const isMobile = useMediaQuery("max-width: 500px)");
-  console.log(isMobile)
+  const isMobile = useMediaQuery("(max-width: 500px)");
   return (
     <Canvas
       frameloop="demand"

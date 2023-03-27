@@ -15,14 +15,13 @@ export function useMediaQuery(query) {
     // define a callback function to handle changes to the media query
     const handleChange = (e) => {
       setWidth(e.matches);
-
-      mediaQuery.addEventListener('change', handleChange);
-
-      return () => {
-        mediaQuery.removeEventListener('change', handleChange);
-      }
     }
-  }, [query]);
-
+    // add the callback function as a listner for changes to the media query
+    mediaQuery.addEventListener('change', handleChange);
+    // remove the callback function as a listner when the component is unmounted
+    return () => {
+      mediaQuery.removeEventListener('change', handleChange);
+    }
+  }, []);
   return width;
 }
