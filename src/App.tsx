@@ -1,6 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
 
-import { Hero, Navbar, StarsCanvas } from './components';
+import { Hero, Navbar, StarsCanvas, About } from './components';
 
 const App = () => {
   return (
@@ -11,6 +11,9 @@ const App = () => {
           <Hero />
         </div>
         {/* SECTION BELOW */}
+        <div className="container__about" id="about">
+          <About />
+        </div>
       </div>
     </BrowserRouter>
   )

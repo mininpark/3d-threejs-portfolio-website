@@ -1,34 +1,33 @@
-import logo from './logo.png';
-import backend from './backend.png';
-import creator from './creator.png';
-import mobile from './mobile.png';
-import web from './web.png';
-import github from './github.png';
-import menu from './menu.svg';
-import close from './close.svg';
+import logo from './img/logo.png';
+import backend from './img/backend.png';
+import creator from './img/creator.png';
+import mobile from './img/mobile.png';
+import web from './img/web.png';
+import github from './img/github.png';
+import menu from './img/menu.svg';
+import close from './img/close.svg';
+import carrent from './img/carrent.png';
+import jobit from './img/jobit.png';
+import tripguide from './img/tripguide.png';
 
-import css from './tech/css.png';
-import docker from './tech/docker.png';
-import figma from './tech/figma.png';
-import git from './tech/git.png';
-import html from './tech/html.png';
-import javascript from './tech/javascript.png';
-import mongodb from './tech/mongodb.png';
-import nodejs from './tech/nodejs.png';
-import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
-import threejs from './tech/threejs.svg';
+import css from './img/tech/css.png';
+import docker from './img/tech/docker.png';
+import figma from './img/tech/figma.png';
+import git from './img/tech/git.png';
+import html from './img/tech/html.png';
+import javascript from './img/tech/javascript.png';
+import mongodb from './img/tech/mongodb.png';
+import nodejs from './img/tech/nodejs.png';
+import reactjs from './img/tech/reactjs.png';
+import redux from './img/tech/redux.png';
+import tailwind from './img/tech/tailwind.png';
+import typescript from './img/tech/typescript.png';
+import threejs from './img/tech/threejs.svg';
 
-import meta from './company/meta.png';
-import shopify from './company/shopify.png';
-import starbucks from './company/starbucks.png';
-import tesla from './company/tesla.png';
-
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import meta from './img/company/meta.png';
+import shopify from './img/company/shopify.png';
+import starbucks from './img/company/starbucks.png';
+import tesla from './img/company/tesla.png';
 
 export {
   logo,

@@ -1,0 +1,35 @@
+.subtext {
+  color: $color-secondary;
+  &-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  &-small {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    @include sm {
+      font-size: 18px;
+    }
+  }
+  &-main {
+    font-weight: 800;
+    color: #fff;
+    font-size: 30px;
+    text-transform: capitalize;
+    @include sm {
+      font-size: 40px;
+    }
+    @include md {
+      font-size: 60px;
+    }
+  }
+
+  &-inhalt {
+    max-width: 48rem;
+    line-height: 30px;
+    font-size: 17px;
+  }
+}

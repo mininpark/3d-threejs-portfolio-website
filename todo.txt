@@ -1,0 +1,2 @@
+1. Implementate i18n
+2. Play music

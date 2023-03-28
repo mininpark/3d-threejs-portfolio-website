@@ -4,7 +4,17 @@ import {
   ComputersCanvas,
   StarsCanvas,
 } from './canvas';
-import Hero from './Hero';
-import Navbar from './Navbar';
+import Hero from './module/Hero';
+import Navbar from './module/Navbar';
+import About from './module/About';
 
-export { Hero, Navbar, EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas };
+
+export {
+  Hero,
+  Navbar,
+  About,
+  EarthCanvas,
+  BallCanvas,
+  ComputersCanvas,
+  StarsCanvas,
+};
