@@ -29,6 +29,18 @@ import shopify from './img/company/shopify.png';
 import starbucks from './img/company/starbucks.png';
 import tesla from './img/company/tesla.png';
 
+import cyber from './img/showcase/cyber.jpeg';
+import dron from './img/showcase/dron.jpeg';
+import handarbeit from './img/showcase/handarbeit.jpeg';
+import iphone from './img/showcase/iphone.jpeg';
+import keyboard from './img/showcase/keyboard.jpeg';
+import macbook from './img/showcase/macbook.jpeg';
+import robot from './img/showcase/robot.jpeg';
+import sketch from './img/showcase/sketch.jpeg';
+import spiel from './img/showcase/spiel.jpeg';
+import team from './img/showcase/team.jpeg';
+
+
 export {
   logo,
   backend,
@@ -58,4 +70,14 @@ export {
   carrent,
   jobit,
   tripguide,
+  cyber,
+  dron,
+  handarbeit,
+  iphone,
+  keyboard,
+  macbook,
+  robot,
+  sketch,
+  spiel,
+  team
 };
