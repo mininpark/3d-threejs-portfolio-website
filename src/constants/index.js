@@ -23,6 +23,16 @@ import {
   jobit,
   tripguide,
   threejs,
+  cyber,
+  dron,
+  handarbeit,
+  iphone,
+  keyboard,
+  macbook,
+  robot,
+  sketch,
+  spiel,
+  team,
 } from '../assets';
 
 export const navLinks = [
@@ -65,4 +75,17 @@ export const aboutCard = [
     title: 'Content Creator',
     icon: creator,
   },
+];
+
+export const ShowcaseImgs = [
+  { id: 1, src: cyber },
+  { id: 2, src: dron },
+  { id: 3, src: handarbeit },
+  { id: 4, src: iphone },
+  { id: 5, src: keyboard },
+  { id: 6, src: macbook },
+  { id: 7, src: robot },
+  { id: 8, src: sketch },
+  { id: 9, src: spiel },
+  // { id: 10, src: team },
 ];

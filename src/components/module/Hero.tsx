@@ -9,9 +9,12 @@ const Hero = () => {
 
           <div className="section-hero__shapes-line violet-gradient" />
         </div>
-        <div>
-          <h1 className="heroHeadText font-white">Hey <span>Hey</span></h1>
-          <p className="heroSubText font-white">I develop 3D visuals, User <br className="dynamic-br" />interfaces and web applications</p>
+        <div className="section-hero__text-wrapper">
+          <p className="heroSubText font-white">3D visuals, User <br className="dynamic-br" />interfaces and web applications</p>
+          <h1 className="heroHeadText font-white">
+            ROLLER
+            <span className="heroHeadText-blur">ROLLER</span>
+          </h1>
         </div>
       </div>
       {/* 3D Model Canvas */}
@@ -19,7 +22,7 @@ const Hero = () => {
       <div className="section-hero__toggle-btn">
         <a href="#about">
           <div className="outer-container">
-            <div className="circle" ></div>
+            <div className="circle"></div>
           </div>
         </a>
       </div>

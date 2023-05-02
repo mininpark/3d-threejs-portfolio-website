@@ -209,20 +209,6 @@ img {
   }
 }
 
-.heroHeadText {
-  color: #fff;
-  font-size: 40px;
-  margin-top: 0.5rem;
-  font-weight: 900;
-  @include md {
-    font-size: 60px;
-  }
-  @include lg{
-    font-size: 80px;
-    line-height: 98px;
-  }
-}
-
 .heroSubText {
   color: #DFD9FF;
   font-weight: 500;

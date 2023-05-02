@@ -1,0 +1,40 @@
+.section-showcase {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100vh;
+}
+
+.columns {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: center;
+  transform: rotate(0deg);
+  column-gap: 2em;
+  will-change: transform, opacity;
+  .column-wrap {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 0 15vh;
+  }
+  .column-wrap:nth-child(even) {
+    margin-top: -10vh;
+    @include md {
+      margin-top: -30vh;
+    }
+  }
+
+  .column {
+    padding-top: 2rem;
+  }
+}

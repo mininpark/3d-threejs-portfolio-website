@@ -17,7 +17,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
           <img src={logo} alt="logo" className="nav__img" />
-          <p>Mina &nbsp; <span>| React + Three JS Portfolio</span></p>
+          <p>Park &nbsp; <span>| React + Three JS Showcase</span></p>
         </Link>
 
         {/* Desktop Navigationbar */}

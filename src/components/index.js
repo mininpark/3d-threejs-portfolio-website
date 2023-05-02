@@ -6,13 +6,15 @@ import {
 } from './canvas';
 import Hero from './module/Hero';
 import Navbar from './module/Navbar';
-import About from './module/About';
 
+import Showcase from './module/Showcase';
+import About from './module/About';
 
 export {
   Hero,
   Navbar,
   About,
+  Showcase,
   EarthCanvas,
   BallCanvas,
   ComputersCanvas,

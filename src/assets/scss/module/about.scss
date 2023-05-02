@@ -1,3 +1,8 @@
+.container__about {
+  width: 100%;
+
+  background-color: $color-primary;
+}
 .section-about {
   padding: 1.5rem;
   max-width: 80rem;
@@ -7,5 +12,26 @@
   }
   &__cards {
     display: flex;
+    flex: 1 1 0%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .card-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+      gap: 2rem;
+      width: 40%;
+      height:200px;
+      border: 1px solid linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+      background-color: $color-tertiary;
+      margin: 20px;
+      text-align: center;
+
+      img {
+        width: 70px;
+      }
+    }
   }
 }
