@@ -1,7 +1,7 @@
 import SubText from '../element/Subtext';
 import AboutCard from '../element/AboutCard';
 import { aboutText, aboutCard } from '../../constants';
-
+import { SectionWrapper } from '../../hoc'
 
 const About = () => {
   return (
@@ -16,4 +16,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About, "about")
