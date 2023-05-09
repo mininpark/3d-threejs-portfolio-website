@@ -1,12 +1,8 @@
-.container__about {
-  width: 100%;
-
-  background-color: $color-primary;
-}
 .section-about {
   padding: 1.5rem;
   max-width: 80rem;
   margin: 0 auto;
+
   @include md {
     padding: 4rem;
   }

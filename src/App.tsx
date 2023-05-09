@@ -1,6 +1,7 @@
 import { BrowserRouter } from 'react-router-dom';
 
 import { Hero, Navbar, StarsCanvas, About, Showcase } from './components';
+import Experience from './components/module/Experience';
 
 const App = () => {
   return (
@@ -12,8 +13,9 @@ const App = () => {
         </div>
         {/* SECTION BELOW */}
         <Showcase />
-        <div className="container__about" id="about">
+        <div className="container__dark">
           <About />
+          <Experience />
         </div>
       </div>
     </BrowserRouter>

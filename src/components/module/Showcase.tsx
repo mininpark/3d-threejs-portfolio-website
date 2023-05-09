@@ -19,8 +19,8 @@ const Showcase = () => {
   return (
     <section className="section-showcase">
       <div className="columns" id="element">
-        {columns.map((column) => (
-          <ColumnWrap column={column} />
+        {columns.map((column, id) => (
+          <ColumnWrap column={column} key={id} />
         ))}
       </div>
     </section>

@@ -1,0 +1,29 @@
+.section-experience {
+  padding: 1.5rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  .timeline-inner {
+    h3 {
+      color: $color-white;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    p {
+      color: $color-secondary;
+      font-size: 16px;
+      font-weight: 500;
+      margin: 0;
+    }
+  }
+  ul {
+    margin: 20px 0 20px 20px;
+    line-height: 18px;
+    list-style-type:disc;
+    li {
+      color: $color-white;
+      font-size: 14px;
+      padding: 5px 0 0 10px;
+      letter-spacing: .05em;
+    }
+  }
+}
