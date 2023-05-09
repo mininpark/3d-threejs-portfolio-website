@@ -2,6 +2,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 import { Hero, Navbar, StarsCanvas, About, Showcase } from './components';
 import Experience from './components/module/Experience';
+import Technology from './components/module/Technology';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <div className="container__dark">
           <About />
           <Experience />
+          <Technology />
         </div>
       </div>
     </BrowserRouter>

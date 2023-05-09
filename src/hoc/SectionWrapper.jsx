@@ -22,7 +22,7 @@ const SectionWrapper = (Component, idName) =>
       );
     }, []);
     return (
-      <section ref={secWrapper} className="section__container">
+      <section ref={secWrapper} className="section__wrapper">
         <span className="hash-span" id={idName}>
           &nbsp;
         </span>

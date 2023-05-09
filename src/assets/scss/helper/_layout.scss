@@ -191,10 +191,12 @@ img {
 }
 
 .paddingX {
-  padding: 0 2rem;
-   @include sm {
-    padding: 0 4rem;
-   }
+  padding: 2rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  @include md {
+    padding: 4rem;
+  }
 }
 .paddingY {
   padding: 2rem 0;
