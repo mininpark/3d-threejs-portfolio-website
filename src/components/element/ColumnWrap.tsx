@@ -1,5 +1,4 @@
 const ColumnWrap = ({ column }) => {
-  console.log(column);
   return (
     <div className={`column-wrap columns${column.index}`} >
       {column.map((column: any) => (
