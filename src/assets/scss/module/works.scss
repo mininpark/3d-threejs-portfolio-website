@@ -1,0 +1,17 @@
+.section-works {
+  &__text {
+    width: 100%;
+    display: flex;
+    margin-top: 0.75rem;
+    color: $color-secondary;
+    font-size: 17px;
+    max-width: 48rem;
+    line-height: 30px;
+  }
+  &__cards {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}
