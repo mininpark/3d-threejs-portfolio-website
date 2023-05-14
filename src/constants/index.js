@@ -212,6 +212,7 @@ export const worksText = [
   {
     subTitle: 'my work',
     mainTitle: 'projects',
+    text: 'Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and leve demos in it. It refelects my ability to solve complex problems, work with different techs and manage projects effectiviely.',
   },
 ];
 

@@ -11,15 +11,21 @@
       justify-content: center;
       align-items:center;
       gap: 2rem;
-      width: 40%;
-      height:200px;
-      border: 1px solid linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+      width: 200px;
+      height: 240px;
+      // border: 1px solid linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
       background-color: $color-tertiary;
       margin: 20px;
       text-align: center;
+      @include md {
+        width: 360px;
+      }
 
       img {
         width: 70px;
+      }
+      p {
+        width: 80%;
       }
     }
   }
