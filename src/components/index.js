@@ -11,6 +11,7 @@ import About from './module/About';
 import Experience from './module/Experience';
 import Technology from './module/Technology';
 import Works from './module/Works';
+import Contact from './module/Contact';
 
 export {
   Hero,
@@ -19,6 +20,7 @@ export {
   Experience,
   Technology,
   Works,
+  Contact,
   Showcase,
   EarthCanvas,
   BallCanvas,

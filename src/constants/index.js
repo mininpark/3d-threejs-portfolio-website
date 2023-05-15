@@ -281,3 +281,11 @@ export const projects = [
     source_code_link: 'https://github.com/',
   },
 ];
+
+export const contactText = [
+  {
+    subTitle: 'get in touch',
+    mainTitle: 'contact',
+    text: 'Feel free to contact me',
+  },
+];
