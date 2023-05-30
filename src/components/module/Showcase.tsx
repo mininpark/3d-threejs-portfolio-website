@@ -4,10 +4,14 @@ import { ShowcaseImgs } from '../../constants';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
+interface ImageItem {
+  id: number;
+  src: string;
+}
 
 const Showcase = () => {
   // create an array of columns
-  const columns = Array.from({ length: 3 }, () => []);
+  const columns: Array<ImageItem[]> = Array.from({ length: 3 }, () => []);
   // console.log(columns);
 
   // distribute items evenly among columns
