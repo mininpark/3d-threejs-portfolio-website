@@ -1,4 +1,4 @@
-Live Server: https://3d-threejs-portfolio-website-howkx8wpi-mininpark.vercel.app/
+Live Server: https://3d-threejs-portfolio-website.vercel.app/
 
 <h2>Amazing 3D Web Developer Portfolio in React JS, Three JS</h2>
 
