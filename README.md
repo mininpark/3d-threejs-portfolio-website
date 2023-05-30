@@ -5,7 +5,7 @@ Live Server: https://3d-threejs-portfolio-website-howkx8wpi-mininpark.vercel.app
 <h3>WHAT I LEARNED:</h3>
 
 - Implementing GSAP animations, ranging from soft and pleasant animations to complex gradients.
-- Identifying the need to re-implement the same GSAP animation with different references and components.
+- Identifying the need to re-implement the same GSAP animation with different references and libraries such as react tilt and react-vertical-timeline-component
 
 - Expanding your knowledge with additional tools and libraries, including:
   - Three.js: A powerful 3D graphics library for rendering and animating 3D models.
