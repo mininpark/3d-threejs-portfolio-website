@@ -225,7 +225,8 @@ export const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: 'https://github.com/',
+    source_code_link:
+      'https://3d-threejs-portfolio-website-howkx8wpi-mininpark.vercel.app/',
   },
   {
     name: 'Next JS Animation',
