@@ -3,10 +3,11 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { Points, PointMaterial, Preload } from '@react-three/drei';
 import * as random from 'maath/random/dist/maath-random.esm';
 
-const Stars = (props) => {
+const Stars = (props: any) => {
   const starRef = useRef<THREE.Object3D | undefined>(null);
-  // A sphere is a three-dimensional geometric shape in which all the points on its surface are equidistant from its center. In simpler terms, it is a perfectly round shape with a constant radius that has no corners or edges.
-  const sphere = random.inSphere(new Float32Array(5000), { radius: 1.2 })
+  // A sphere is perfectly round shape with a constant radius that has no corners or edges
+  // In this modified code, we create a Float32Array with a length of 5000 * 3, where 3 represents the number of components (X, Y, Z) for each position. This ensures that the Float32Array has enough capacity to store the positions for all the stars.
+  const sphere = random.inSphere(new Float32Array(5000 * 3), { radius: 1.2 })
 
   // to rotate the stars frame react three fiber
   useFrame((state, delta) => {

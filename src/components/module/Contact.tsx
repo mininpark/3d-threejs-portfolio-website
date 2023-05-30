@@ -4,14 +4,12 @@ import SubText from '../element/Subtext'
 import { contactText } from '../../constants'
 import { EarthCanvas, StarsCanvas } from '../canvas'
 import eamiljs from '@emailjs/browser'
-import dotenv from 'dotenv'
-
-dotenv.config();
-const serviceKey = import.meta.env.VITE_TEMPLATE_IP_KEY;
-const templateKey = import.meta.env.VITE_SERVICE_KEY;
-const publicKey = import.meta.env.VITE_PUBLIC_KEY;
 
 const Contact = () => {
+  const serviceKey = import.meta.env.VITE_SERVICE_KEY;
+  const templateKey = import.meta.env.VITE_TEMPLATE_IP_KEY;
+  const publicKey = import.meta.env.VITE_PUBLIC_KEY;
+
   const formRef = useRef(null);
   const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({
@@ -30,15 +28,15 @@ const Contact = () => {
     setLoading(true);
 
     eamiljs.send(
-      serviceKey || '', //service key
-      templateKey || '', // template key
+      serviceKey, //service key
+      templateKey, // template key
       {
         from_name: form.email,
         to_name: 'Mina',
         from_email: form.email,
-        to_email: 'contact@mina.com',
+        to_email: 'contact@mina-portfolio.com',
         message: form.message,
-      },
+      }, // templates params
       publicKey //public key
     )
       .then(() => {

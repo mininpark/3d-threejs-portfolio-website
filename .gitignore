@@ -13,6 +13,7 @@ lerna-debug.log*
 #ignore environment variables
 .env
 .env.example
+.env.*.local
 
 node_modules
 dist
