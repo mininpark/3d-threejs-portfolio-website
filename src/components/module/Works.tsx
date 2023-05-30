@@ -42,9 +42,12 @@ const Works = () => {
             index={index}
             {...project} />
         ))}
-
       </div>
-    </div>
+      <div className="more-btn" >
+        <a href="https://github.com/mininpark" target="_blank" >+ MORE <img src="/src/assets/img/github.png" alt="github" />
+        </a>
+      </div>
+    </div >
   )
 }
 

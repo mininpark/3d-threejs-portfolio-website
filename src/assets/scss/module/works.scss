@@ -14,59 +14,79 @@
     @include sm {
       width: 360px;
     }
-  }
-  &__card {
-    width: 100%;
-    height: 230px;
-    position: relative;
-  }
-  &__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  &__link {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    justify-content: flex-end;
-    margin: 10px;
-    &-github {
-      width: 40px;
-      height: 40px;
-      border-radius: 100%;
+    }
+    &__card {
+      width: 100%;
+      height: 230px;
+      position: relative;
+    }
+    &__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    &__link {
+      position: absolute;
+      inset: 0;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
+      justify-content: flex-end;
+      margin: 10px;
+      &-github {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+      &-img {
+        width: 50%;
+        height: 50%;
+        object-fit: contain;
+      }
     }
-    &-img {
-      width: 50%;
-      height: 50%;
-      object-fit: contain;
-    }
-  }
-  &__text {
-    margin-top: 15px;
-    &-title {
-      color: $color-white;
-      font-style: bold;
-      font-size: 24px;
-    }
-    &-description {
+    &__text {
       margin-top: 15px;
-      color: $color-secondary;
-      font-size: 14px;
-      line-height: 18px;
+      &-title {
+        color: $color-white;
+        font-style: bold;
+        font-size: 24px;
+      }
+      &-description {
+        margin-top: 15px;
+        color: $color-secondary;
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+    &__hashtags {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
     }
   }
-  &__hashtags {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-  }
-}
 
+  .more-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: $color-tertiary;
+    margin: 5rem auto;
+    a {
+      display: contents;
+      img {
+        width: 25px;
+        height: 25px;
+      }
+    }
+
+  }
 }
