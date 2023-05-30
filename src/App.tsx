@@ -19,7 +19,10 @@ const App = () => {
           <Experience />
           <Technology />
           <Works />
-          <Contact />
+          <div className="contact-wrapper">
+            <Contact />
+            <StarsCanvas />
+          </div>
         </div>
       </div>
     </BrowserRouter>
