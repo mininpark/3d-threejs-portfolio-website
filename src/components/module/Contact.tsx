@@ -3,7 +3,7 @@ import { SectionWrapper } from '../../hoc'
 import SubText from '../element/Subtext'
 import { contactText } from '../../constants'
 import { NULL } from 'sass'
-import { EarthCanvas } from '../canvas'
+import { EarthCanvas, StarsCanvas } from '../canvas'
 
 
 const Contact = () => {
@@ -46,8 +46,8 @@ const Contact = () => {
       </div>
       <div className="section-contact__planet">
         <EarthCanvas />
-
       </div>
+      <StarsCanvas />
     </div>
   )
 }

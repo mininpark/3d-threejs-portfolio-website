@@ -1,16 +1,25 @@
-import { useState, useRef, Suspense } from 'react';
+import { useState, useRef, Suspense, MutableRefObject } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Points, PointMaterial, Preload } from '@react-three/drei';
 import * as random from 'maath/random/dist/maath-random.esm';
 
 const Stars = (props) => {
-  const ref = useRef();
+  const starRef = useRef<THREE.Object3D | undefined>(null);
+  // A sphere is a three-dimensional geometric shape in which all the points on its surface are equidistant from its center. In simpler terms, it is a perfectly round shape with a constant radius that has no corners or edges.
   const sphere = random.inSphere(new Float32Array(5000), { radius: 1.2 })
-// TODO: Z-index to fix
+
+  // to rotate the stars frame react three fiber
+  useFrame((state, delta) => {
+    if (starRef.current) {
+      starRef.current.rotation.x -= delta / 10;
+      starRef.current.rotation.y -= delta / 15;
+    }
+  })
+
   return (
     <group rotation={[0, 0, Math.PI / 4]}>
       <Points
-        ref={ref}
+        ref={starRef}
         positions={sphere}
         stride={3}
         frustumCulled {...props} >
