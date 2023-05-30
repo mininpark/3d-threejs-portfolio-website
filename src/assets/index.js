@@ -28,6 +28,8 @@ import meta from './img/company/meta.png';
 import shopify from './img/company/shopify.png';
 import starbucks from './img/company/starbucks.png';
 import tesla from './img/company/tesla.png';
+import mannheim from './img/company/mannheim.png';
+import adesso from './img/company/adesso.jpeg';
 
 import cyber from './img/showcase/cyber.jpeg';
 import dron from './img/showcase/dron.jpeg';
@@ -39,7 +41,6 @@ import robot from './img/showcase/robot.jpeg';
 import sketch from './img/showcase/sketch.jpeg';
 import spiel from './img/showcase/spiel.jpeg';
 import team from './img/showcase/team.jpeg';
-
 
 export {
   logo,
@@ -79,5 +80,7 @@ export {
   robot,
   sketch,
   spiel,
-  team
+  team,
+  mannheim,
+  adesso,
 };

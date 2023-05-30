@@ -1,6 +1,8 @@
+Next to learn
+
 1. Implementate i18n
 2. Play music
-3. anmiation in showcase 
+3. anmiation in showcase
 
 Inspo:
 https://darkroom.studiofreight.com/vault

@@ -33,6 +33,8 @@ import {
   sketch,
   spiel,
   team,
+  mannheim,
+  adesso,
 } from '../assets';
 
 export const navLinks = [
@@ -54,25 +56,25 @@ export const aboutText = [
   {
     subTitle: 'introduction',
     mainTitle: 'overview',
-    text: "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!",
+    text: "My study of business administration enables me to actively engage in IT and combine two passions. For years, nothing has brought me more joy than applying programming languages such as TypeScript, ECMA Script 6, ReactJS, various CSS frameworks, HTML, and Git, and engaging in web development and gaining practical experience. With my passion for creating visually stunning and user-friendly websites, I possess six months of practical experience in a professional context. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!",
   },
 ];
 
 export const aboutCard = [
   {
-    title: 'Web Developer',
+    title: 'React JS',
     icon: web,
   },
   {
-    title: 'React Native Developer',
+    title: 'Typescript',
     icon: mobile,
   },
   {
-    title: 'Backend Developer',
+    title: 'ECMA Script 6',
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'Three JS',
     icon: creator,
   },
 ];
@@ -93,62 +95,49 @@ export const ShowcaseImgs = [
 export const experienceText = [
   {
     subTitle: 'what I have done so far',
-    mainTitle: 'work experience',
+    mainTitle: 'experience',
   },
 ];
 
 export const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    title: 'Business Administration Student',
+    company_name: 'Mannehim University',
+    icon: mannheim,
+    iconBg: '#FF9900',
+    date: 'Sep 2019 - Aug 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Combined her passion for programming with her studies in Business Administration, actively dedicating herself to IT and web development',
+      "Bachelor's degree from the University of Mannheim, specializing in SQL database management, object-oriented programming in Java, and SAP",
+      'Attended Koc University in Istanbul, focusing on Python programming, data analysis, and utilizing Jupyter Notebook',
+      "Wrote a Bachelor's thesis titled 'Success Factors in Team-AI Collaboration' with a focus on IT",
+    ],
+  },
+  {
+    title: 'Frontend Developer Trainee',
+    company_name: 'Adesso',
+    icon: adesso,
+    iconBg: '#ffffff',
+    date: 'July 2022 - June 2023',
+    points: [
+      'Developing user interfaces and web applications using React.js and Angular.js',
+      'Collaborating with UX designers to create scalable and reusable components',
+      'Integrating APIs and third-party libraries to enhance application functionality',
+      'Collaborated with cross-functional teams to develop and maintain web applications, contributing to the creation of high-quality products',
+      'Implemented responsive and ensured cross-browser compatibility for seamless user experiences',
     ],
   },
   {
     title: 'Frontend Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#FF9900',
-    date: 'June 2021 - Dec 2021',
+    company_name: 'Adesso',
+    icon: adesso,
+    iconBg: '#ffffff',
+    date: 'June 2023 - Current',
     points: [
-      'Developing user interfaces and web applications using React.js and React Context API.',
-      'Collaborating with UX designers to create scalable and reusable components.',
-      'Integrating APIs and third-party libraries to enhance application functionality.',
-      'Implementing unit tests to ensure high code quality and maintainability.',
-      'Contributing to the development of internal tools and libraries to improve developer productivity.',
-    ],
-  },
-  {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Transitioned to a position as a Frontend Developer in the Line of Business Digital Experience after Traineeship',
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products',
+      'Implementing responsive design and ensuring cross-browser compatibility',
+      'Participating in code reviews and providing constructive feedback to other developers',
     ],
   },
 ];
@@ -218,16 +207,37 @@ export const worksText = [
 
 export const projects = [
   {
-    name: 'Car Rent',
+    name: '3D Three JS React',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'In this project, you will learn to create stunning 3D graphics using ThreeJS and React Three Fiber, apply stylish and responsive designs, bring the website to life with animations using GSAP, make your code reusable and scalable, implement email functionality, and optimize performance with Suspense and Preload.',
     tags: [
       {
-        name: 'react',
+        name: 'react JS',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'three JS',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'GSAP',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: tripguide,
+    source_code_link: 'https://github.com/',
+  },
+  {
+    name: 'Next JS Animation',
+    description:
+      'In a Next.js project, it was implemented GSAP animations using Tailwind CSS, and improved responsiveness with perfectly placed media queries while noting the challenges of tailwind.',
+    tags: [
+      {
+        name: 'react JS',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'nextjs',
         color: 'green-text-gradient',
       },
       {
@@ -236,49 +246,28 @@ export const projects = [
       },
     ],
     image: carrent,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://modern-3d-nextjs-animation-website.vercel.app/',
   },
   {
-    name: 'Job IT',
+    name: 'React JS Restaurant',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'In the ReactJS and Tailwind CSS-based project, I learned about the reusability of functional components, proper file and folder structure in React, mastering flex and grid properties, understanding the CSS BEM model, implementing animations and gradients, utilizing DataMap for data import, achieving responsive design.',
     tags: [
       {
-        name: 'react',
+        name: 'react JS',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'SCSS',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],
     image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://react-js-with-modern-ui-ux-hosting.vercel.app/',
   },
 ];
 
