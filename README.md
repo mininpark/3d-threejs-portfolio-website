@@ -11,7 +11,7 @@ Live Server: https://3d-threejs-portfolio-website-howkx8wpi-mininpark.vercel.app
   - Three.js: A powerful 3D graphics library for rendering and animating 3D models.
   - React Three Fiber: A popular library for creating 3D graphics with Three.js in React.
 - Loading, creating, and customizing stunning 3D models and geometries with various lights, along with understanding the 3D world using a camera and object positioning in space.
-- Writing reusable and scalable code by employing Higher Order Components (HOCs) and other industry-standard best practices.
+- Writing reusable and scalable code by employing Higher Order Components (HOCs) to wrap an each section to aviod duplicate of codes such as animation
 - Implementing a form on the website to enable sending emails using email js including env security.
 - Ensuring responsiveness across all devices and enhancing site performance using Suspense and Preload techniques.
 
